@@ -41,7 +41,7 @@ public:
 
 	T& operator[](int index)
 	{
-		assert(index < 0 || index >= size);
+		assert(index >= 0 && index < size); // assert는 통과 조건을 넣어줘야 함
 		return data[index];
 	}
 
