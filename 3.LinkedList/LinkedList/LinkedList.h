@@ -12,7 +12,17 @@ public:
 	LinkedList() : head(nullptr), count(0) {}
 	~LinkedList()
 	{
-		// todo: memory cleanup
+		NodeType current = head;
+		NodeType trail = nullptr;
+
+		while (current)
+		{
+			next = current->next;
+			delete current;
+			current = next;
+		}
+		head = nullptr;
+		count = 0;
 	}
 
 	void Insert(const T& data)
