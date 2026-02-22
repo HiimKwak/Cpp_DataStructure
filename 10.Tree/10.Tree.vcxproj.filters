@@ -18,15 +18,12 @@
     <ClCompile Include="Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Container\HashTable.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Container\HashTable.h">
+    <ClInclude Include="Container\Node.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Container\Pair.h">
+    <ClInclude Include="Container\Tree.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

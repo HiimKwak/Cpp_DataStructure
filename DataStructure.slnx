@@ -3,10 +3,12 @@
     <Platform Name="x64" />
   </Configurations>
   <Project Path="1.Array/1.Array.vcxproj" Id="606434fe-2d0f-48b0-91d0-753bb968ce02" />
+  <Project Path="10.Tree/10.Tree.vcxproj" Id="15b2e35e-cc0a-490e-bac9-3f81b14a714e" />
   <Project Path="2.List/2.List.vcxproj" Id="8b910a18-1ae3-4079-bc16-f2f7c93372f2" />
   <Project Path="3.LinkedList/3.LinkedList.vcxproj" Id="fd5e2a29-92a6-4251-b0a6-c8ce9bac95a1" />
   <Project Path="4.DoublyLinkedList/4.DoublyLinkedList.vcxproj" Id="e9ecceb0-31c5-4fc0-a6b3-9fc75b88d4e4" />
   <Project Path="6.StackMaze/6.StackMaze.vcxproj" Id="8cd4628e-a2f8-46d9-8100-a92028032921" />
   <Project Path="7.Queue/7.Queue.vcxproj" Id="66dc2c6d-1a59-45dc-82e7-4aec4699522f" />
   <Project Path="8.QueueMaze/8.QueueMaze.vcxproj" Id="d04ebea8-a8cc-48c1-b4c9-c72970c33efb" />
+  <Project Path="9.HashTable/9.HashTable.vcxproj" Id="72d1b522-16c6-4f57-b22c-4bfeffd7836a" />
 </Solution>
