@@ -16,7 +16,7 @@ template<typename T>
 class Node
 {
 public:
-	Node(): data() {}
+	Node() : data() {}
 	Node(const T& data) : data(data) {}
 	~Node()
 	{
@@ -74,8 +74,8 @@ private:
 		auto& parentVector = child->GetParent()->GetChildren();
 
 		auto childIterator = std::find(
-			parentVector.begin(), 
-			parentVector.end(), 
+			parentVector.begin(),
+			parentVector.end(),
 			child
 		);
 
