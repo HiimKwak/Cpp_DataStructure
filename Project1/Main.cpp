@@ -9,10 +9,10 @@ int main()
 {
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 	Vector<int> v;
-	v.Add(1);
-	v.Add(2);
-	v.Add(3);
-	v.Add(4);
-	v.Add(5);
-	v.Add(6);
+	v.push_back(1);
+	v.push_back(2);
+	v.push_back(3);
+	v.push_back(4);
+	v.push_back(5);
+	v.push_back(6);
 }
