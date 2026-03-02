@@ -13,4 +13,5 @@
   <Project Path="8.QueueMaze/8.QueueMaze.vcxproj" Id="d04ebea8-a8cc-48c1-b4c9-c72970c33efb" />
   <Project Path="9.HashTable/9.HashTable.vcxproj" Id="72d1b522-16c6-4f57-b22c-4bfeffd7836a" />
   <Project Path="Practice1/Practice1.vcxproj" Id="392fe345-e53c-4dad-9f93-2337ba546689" />
+  <Project Path="Project1/Project1.vcxproj" Id="44d6f895-1755-47b2-ae4e-0ffa43e88b93" />
 </Solution>
