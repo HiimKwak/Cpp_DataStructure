@@ -8,4 +8,4 @@
 
 ### 구현
 
-![카드 브라우저](./card-browser.gif)
+![card-browser](https://github.com/user-attachments/assets/005a3558-7b19-439a-930d-d8235ba08f7e)
