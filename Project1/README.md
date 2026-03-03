@@ -6,6 +6,9 @@
 - 유한 리스트 원형 반복 테크닉 복습
 - 콘솔 커서 조작 기능 복습
 
+### 회고
+[HiImKwak.blog - C++ 기본기 연습 프로젝트: 카드 덱 브라우저](https://hiimkwak.blog/game-dev/study/2026/03/02)
+
 ### 구현
 
 ![card-browser](https://github.com/user-attachments/assets/005a3558-7b19-439a-930d-d8235ba08f7e)
