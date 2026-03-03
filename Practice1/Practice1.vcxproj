@@ -144,6 +144,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10814.cpp" />
+    <ClCompile Include="11399.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

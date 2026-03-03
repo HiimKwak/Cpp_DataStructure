@@ -76,13 +76,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Common\Utils.h" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="Parser\Parser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Container\Card.h" />
     <ClInclude Include="Container\Vector.h" />
-    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Parser\Parser.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="data.txt" />

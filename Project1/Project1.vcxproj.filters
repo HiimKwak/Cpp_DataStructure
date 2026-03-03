@@ -18,7 +18,10 @@
     <ClCompile Include="Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Parser.cpp">
+    <ClCompile Include="Parser\Parser.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Utils.h">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +32,7 @@
     <ClInclude Include="Container\Card.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Parser.h">
+    <ClInclude Include="Parser\Parser.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
