@@ -6,11 +6,12 @@
 #include <vector>
 #include <fstream>
 #include <sstream>
+#include <iostream>
 
 class HashTable
 {
 public:
-	HashTable(int capacity = 101) : capacity(capacity) // 캐퍼시티에 소수(prime number) 사용
+	HashTable(int capacity = 101) : capacity(capacity)
 	{
 		buckets.resize(capacity);
 	}
@@ -89,6 +90,21 @@ public:
 				current = current->GetNext();
 			}
 		}
+	}
+
+	std::vector<Item> GetAllItems() const
+	{
+		std::vector<Item> items;
+		for (int i = 0; i < capacity; ++i)
+		{
+			Node<std::string, Item>* current = buckets[i].GetHead();
+			while (current)
+			{
+				items.push_back(current->GetData().GetValue());
+				current = current->GetNext();
+			}
+		}
+		return items;
 	}
 
 private:

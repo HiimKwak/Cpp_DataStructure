@@ -80,9 +80,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="UI\UI.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="UI\UI.h" />
+    <ClInclude Include="Common\Utils.h" />
     <ClInclude Include="Container\HashTable.h" />
     <ClInclude Include="Container\Item.h" />
     <ClInclude Include="Container\LinkedList.h" />
