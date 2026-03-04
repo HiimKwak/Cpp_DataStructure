@@ -6,6 +6,6 @@
 
 
 ## 프로젝트 2: 해시테이블 기반 아이템 딕셔너리
-(gif)
+![itemdict](Project2/itemdict-remove.gif)
 
 [>> 리드미 바로가기 <<](Project2/README.md)
