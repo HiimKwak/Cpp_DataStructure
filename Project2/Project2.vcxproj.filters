@@ -45,4 +45,18 @@
   <ItemGroup>
     <Text Include="data.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="itemdict-remove.gif">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="itemdict-addandfind.gif">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="itemdict-browse.gif">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

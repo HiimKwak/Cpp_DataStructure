@@ -94,6 +94,17 @@
   <ItemGroup>
     <Text Include="data.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <SubType>
+      </SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="itemdict-addandfind.gif" />
+    <Image Include="itemdict-browse.gif" />
+    <Image Include="itemdict-remove.gif" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

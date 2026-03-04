@@ -8,11 +8,15 @@
 
 ### 구현
 - 프로젝트 1 기능(사전 원형 탐색) 추가
+
+
 ![itemdict-browse](itemdict-browse.gif)
 
 
 - `add()`, `find()`
+
 ![itemdict-addandfind](itemdict-addandfind.gif)
 
 - `remove()`
+
 ![itemdict-remove](itemdict-remove.gif)
