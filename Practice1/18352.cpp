@@ -12,7 +12,7 @@ void BFS(std::vector<City> cities)
 
 }
 
-int main()
+int p18352()
 {
 	std::ios::sync_with_stdio(false);
 	std::cin.tie(nullptr);

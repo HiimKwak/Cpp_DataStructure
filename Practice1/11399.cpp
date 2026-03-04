@@ -18,7 +18,7 @@ void InsertionSort(int array[], int length)
 	}
 }
 
-int main()
+int p11399()
 {
 	std::ios::sync_with_stdio(false);
 	std::cin.tie(nullptr);

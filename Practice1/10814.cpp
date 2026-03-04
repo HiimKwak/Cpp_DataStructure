@@ -14,7 +14,7 @@ struct User
 	}
 };
 
-int main()
+int p10814()
 {
 	std::ios::sync_with_stdio(false);
 	std::cin.tie(nullptr);
